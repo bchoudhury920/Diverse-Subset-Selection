@@ -1,11 +1,9 @@
-from sklearn.ensemble import IsolationForest
 from numpy import random, where
 from sentence_transformers import SentenceTransformer
 import numpy as np
 import re
 from skimage import io
 from PIL import Image
-import submodlib
 import os
 # Inspired from https://github.com/JohannesBuchner/imagehash repository
 from PIL import Image,ImageStat
